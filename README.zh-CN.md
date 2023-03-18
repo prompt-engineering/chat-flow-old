@@ -3,11 +3,11 @@
 [![ci](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml/badge.svg)](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml)
 ![GitHub](https://img.shields.io/github/license/prompt-engineering/chat-flow)
 
-<img src="src/assets/clickprompt-home.svg" width='128' height='128' alt='ClickPrompt Logo' />
+![](docs/screenshot.jpeg)
 
 [English](./README.md) | 简体中文
 
-# 在 Vercel 上部署 ChatFlow
+# 部署 ChatFlow
 
 要求：
 

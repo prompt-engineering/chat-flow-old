@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/prompt-engineering/chat-flow)
 [![Discord](https://img.shields.io/discord/1082563233593966612)](https://discord.gg/FSWXq4DmEj)
 
-<img src="src/assets/clickprompt-home.svg" width='128' height='128' alt='ClickPrompt Logo' />
+![](docs/screenshot.jpeg)
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -12,7 +12,7 @@ Join us:
 
 [![Chat Server](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.gg/FSWXq4DmEj)
 
-# HOW TO DEPLOY (On vercel)
+# DEPLOY (On vercel)
 
 Deploying a Next.js Application on Vercel
 
