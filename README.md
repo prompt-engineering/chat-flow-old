@@ -16,42 +16,19 @@ Join us:
 
 Deploying a Next.js Application on Vercel
 
-## Prerequisites
+Prerequisites:
 
 - ChatFlow repo fork
 - A Vercel account
-- Vercel CLI installed on your local machine (optional)
 
-## Step 1: Connect Your Repository
+##  Connect Your Repository
 
 1. Login to your Vercel account and click on "New Project".
 2. Select your Git repository where your Next.js application is hosted.
 3. Vercel will automatically detect that it is a Next.js application and configure the build settings.
 
-## Step 2: Configure Environment Variables
 
-1. Click on the "Settings" tab on your project dashboard.
-2. Click on "Environment Variables".
-3. Add any environment variables required for your application.
+## LICENSE
 
-## Step 3: Preview Your Deployment
+This code is distributed under the MIT license. See [LICENSE](./LICENSE) in this directory.
 
-1. Once your project is configured, Vercel will automatically start building your application.
-2. Once the build is complete, click on the "Preview" button to see your application live.
-
-## Step 4: Deploy Your Application
-
-1. If you are satisfied with the preview, click on the "Deploy" button.
-2. Vercel will deploy your application and provide you with a unique URL to access it.
-
-## Step 5: Configure Domain (Optional)
-
-1. If you want to use a custom domain, click on the "Domains" tab on your project dashboard.
-2. Follow the instructions to configure your custom domain.
-
-## Step 6: Manage Your Deployments
-
-1. Click on the "Deployments" tab on your project dashboard to manage your deployments.
-2. You can see the status of each deployment and revert to a previous deployment if necessary.
-
-Congratulations! You have successfully deployed your Next.js application on Vercel.
