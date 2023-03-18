@@ -16,23 +16,6 @@ const yaml = require("js-yaml");
 const path = require("node:path");
 const walkdir = require("walkdir");
 
-function generateByCategory() {
-  const categoriesDir = path.join(__dirname, "../src/assets/chatgpt/category");
-  const categoriesFile = path.join(categoriesDir, "index.json");
-
-  const files = walkdir.sync(categoriesDir, { no_recurse: true });
-  const index = files
-    .filter((f) => f.endsWith(".yml"))
-    .map((f) => {
-      const content = fs.readFileSync(f, "utf8");
-      const doc = yaml.load(content);
-      const { name, category, samples } = doc;
-      return { name, category, samples };
-    });
-
-  fs.writeFileSync(categoriesFile, JSON.stringify(index, null, 2));
-}
-
 function generateBySteps() {
   const stepsDir = path.join(__dirname, "../src/assets/chatgpt/flow");
   const stepsFile = path.join(stepsDir, "index.json");
@@ -50,5 +33,4 @@ function generateBySteps() {
   fs.writeFileSync(stepsFile, JSON.stringify(index, null, 2));
 }
 
-generateByCategory();
 generateBySteps();
