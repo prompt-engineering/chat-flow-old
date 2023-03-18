@@ -7,93 +7,42 @@
 
 [English](./README.md) | 简体中文
 
-> ClickPrompt 是一款专为 Prompt 编写者设计的工具，它支持多种基于 Prompt 的 AI 应用，例如 Stable Diffusion、ChatGPT 和 GitHub Copilot 等。
-> 使用 ClickPrompt，您可以轻松地查看、分享和一键运行这些模型，同时提供在线的 Prompt 生成器，使用户能够根据自己的需求轻松创建符合要求的 Prompt，并与其他人分享。
+# 在 Vercel 上部署 ChatFlow
 
-立即尝试：https://www.clickprompt.org/
+## 先决条件
 
-开发环境: https://dev.clickprompt.org/
+- ChatFlow 仓库 fork
+- 一个 Vercel 账户
+- 在本地计算机上安装了 Vercel CLI（可选）
 
-扫一扫加入 ClickPrompt 微信群:
+## 步骤 1：连接您的代码仓库
 
-<img src="./public/wechat.jpg" width='256' height='auto' />
+1. 登录到您的 Vercel 帐户并单击“New Project”。
+2. 选择您的 Git 代码仓库，其中存储着您的 Next.js 应用程序。
+3. Vercel 将自动检测到它是一个 Next.js 应用程序，并配置构建设置。
 
-**二维码达到上限，加小助手微信【`phodal02`】发送【`ClickPrompt`】邀请进群**
+## 步骤 2：配置环境变量
 
-## 功能:
+1. 单击项目仪表板上的“Settings”选项卡。
+2. 单击“Environment Variables”。
+3. 添加任何应用程序所需的环境变量。
 
-- 一键运行：支持 ChatGPT 和 StableDiffusion 的一键运行，让您更轻松地学习和使用 Prompt。
-- Prompt 在线生成器：使用热门的 StableDiffusion 人物生成器和 StableDiffusion -> ChatGPT 生成器，快速创建符合您需求的高质量 Prompt。
-- Prompt 样例库：从我们的用户生成的 Prompt 样例中学习，包括 StableDiffusion、ChatGPT 和 GitHub Copilot。展示您的工作并与他人分享。
-- 行业特定的 Prompt 生成器：提高您的工作效率，目前提供的领域包括编程、写作和设计。
-- Prompt 优化（PoC 思考中）：使用 Prompt 优化器，帮助您提高 Prompt 的质量。
+## 步骤 3：预览部署
 
-## 路线图
+1. 一旦配置完毕，Vercel 将自动开始构建您的应用程序。
+2. 构建完成后，单击“Preview”按钮以查看您的应用程序。
 
-阶段 1: MVP
+## 步骤 4：部署应用程序
 
-- 支持基于 Prompt 的 AI 应用，包括 ChatGPT 和 Stable Diffusion。
-- 提供 Prompt 生成器和一键运行功能。
-- 提供用户样例展示功能。
+1. 如果您满意预览，单击“Deploy”按钮。
+2. Vercel 将部署您的应用程序并为您提供一个唯一的 URL 以访问它。
 
-阶段 2: 拓展功能
+## 步骤 5：配置自定义域名（可选）
 
-- 增加 GPT-3 和 DALL-E 等基于 Prompt 的 AI 应用。
-- 提供用户自定义选项和多语言支持功能。
-- 增加 AI 编辑器和用户权限管理功能。
-- 支持 API 接口和其他第三方平台的集成。
+1. 如果您想使用自定义域名，单击项目仪表板上的“Domains”选项卡。
+2. 按照说明配置自定义域名。
 
-阶段 3: 提高质量
+## 步骤 6：管理部署
 
-- [ ] 改进 Prompt 生成器的算法，提高生成的文本质量和准确性。
-- [ ] 增加用户反馈和评价功能，收集用户的建议和意见。
-- [ ] 推广 ClickPrompt，并与各行业合作，为其提供高效的 AI 应用解决方案。
-
-## 开发
-
-### 技术栈:
-
-- ServerVercel
-- React + Next.js + Typescript
-- UI
-  - Chakra UI
-  - Styled Components: @emotion/styled
-  - Tailwind CSS
-  - React Table
-- React Markdown for render markdown
-
-### 在本地运行 ClickPrompt
-
-```shell
-# Clone chat-flow
-git clone https://github.com/prompt-engineering/chat-flow
-
-cd chat-flow
-
-npm install
-
-npm run dev
-
-# Build
-npm run build
-```
-
-更多请查阅[贡献指南](docs/CONTRIBUTING.md)。
-
-## 贡献指南
-
-欢迎新的贡献者。查看我们的[贡献指南](docs/CONTRIBUTING.md)帮助你开始你的贡献。
-
-![Powered by Vercel](https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg)
-
-## 翻译指南
-
-查看专用的 [i18n 指南](docs/TRANSLATING.md)以获取更多详细信息。
-
-## License
-
-ClickPrompt 使用 MIT 协议发布。在 [LICENSE](./LICENSE) 文件查看详情。
-
-## Star 历史
-
-[![Star History Chart](https://api.star-history.com/svg?repos=prompt-engineering/chat-flow&type=Date)](https://star-history.com/#prompt-engineering/chat-flow&Date)
+1. 单击项目仪表板上的“Deployments”选项卡以管理您的部署。
+2. 您可以查看每个部署的状态并在必要时回滚到以前的部署。
