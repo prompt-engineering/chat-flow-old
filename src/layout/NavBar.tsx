@@ -39,10 +39,6 @@ export default async function NavBar({ locale }: { locale: string }) {
       title: g("click-flow"),
       url: `/click-flow/`,
     },
-    {
-      title: "GitHub Copilot",
-      children: [{ url: `/github-copilot-samples/`, title: g("github-copilot-samples") }],
-    },
     { url: `/resources/`, title: g("resources") },
   ];
 
