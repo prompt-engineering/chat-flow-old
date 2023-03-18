@@ -6,7 +6,7 @@
     "category": "writing",
     "homepage": "https://github.com/prompt-engineering/chat-flow",
     "preview": "Example 1: Template Example 1: Using ChatGPT to create an issue We want to add a new requirement to ClickPrompt: Use ChatGPT to automatically create GitHub issues on ClickPrompt so that the community contributors can better understand the requirement.\nExample 2: Template Example 2: Writing code using ChatGPT to analyze an issue. We are contributors to the ClickPrompt open source project and we would like you to add some new features to ClickPrompt. Please read this information before you start.\n",
-    "path": "chat-flow-casestudy_en-US.yml"
+    "path": "click-prompt-casestudy_en-US.yml"
   },
   {
     "name": "Make ChatGPT analogous migration",

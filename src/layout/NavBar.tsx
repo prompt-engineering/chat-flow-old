@@ -40,14 +40,6 @@ export default async function NavBar({ locale }: { locale: string }) {
       url: `/click-flow/`,
     },
     {
-      title: "StableDiffusion",
-      children: [
-        { url: `/stable-diffusion-examples/`, title: g("stable-diffusion-examples") },
-        { url: `/stable-diffusion-generator/`, title: g("stable-diffusion-generator") },
-        { url: `/stable-diffusion-deepdanbooru/`, title: g("stable-diffusion-deepdanbooru") },
-      ],
-    },
-    {
       title: "GitHub Copilot",
       children: [{ url: `/github-copilot-samples/`, title: g("github-copilot-samples") }],
     },
