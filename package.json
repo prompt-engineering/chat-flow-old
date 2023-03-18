@@ -32,8 +32,6 @@
     "@remirror/react-editors": "^1.0.27",
     "@tanstack/react-table": "^8.7.9",
     "@types/jsonpath-plus": "^5.0.2",
-    "@vercel/analytics": "^0.1.11",
-    "apache-arrow": "^11.0.0",
     "autosize": "^6.0.1",
     "chakra-ui-markdown-renderer": "^4.1.0",
     "client-only": "^0.0.1",
@@ -107,6 +105,10 @@
   },
   "overrides": {
     "react-json-view": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    },
+    "flux": {
       "react": "$react",
       "react-dom": "$react-dom"
     }
