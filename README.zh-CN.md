@@ -1,4 +1,4 @@
-# ChatFlow - Streamline Your Productivity Today!
+# ChatFlow - 打造个性化 ChatGPT 流程，构建自动化之路
 
 [![ci](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml/badge.svg)](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml)
 ![GitHub](https://img.shields.io/github/license/prompt-engineering/chat-flow)

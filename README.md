@@ -1,4 +1,4 @@
-# ChatFlow - Streamline Your Productivity Today!
+# ChatFlow - Personalize your ChatGPT workflows and build the road to automation
 
 [![ci](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml/badge.svg)](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml)
 ![GitHub](https://img.shields.io/github/license/prompt-engineering/chat-flow)
