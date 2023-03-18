@@ -13,8 +13,11 @@ Join us:
 [![Chat Server](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.gg/FSWXq4DmEj)
 
 # HOW TO DEPLOY (On vercel)
+
 Deploying a Next.js Application on Vercel
+
 ## Prerequisites
+
 - ChatFlow repo fork
 - A Vercel account
 - Vercel CLI installed on your local machine (optional)
