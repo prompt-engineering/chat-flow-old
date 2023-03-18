@@ -1,7 +1,7 @@
 # ClickPrompt - Streamline your prompt design
 
-[![ci](https://github.com/prompt-engineering/click-prompt/actions/workflows/ci.yaml/badge.svg)](https://github.com/prompt-engineering/click-prompt/actions/workflows/ci.yaml)
-![GitHub](https://img.shields.io/github/license/prompt-engineering/click-prompt)
+[![ci](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml/badge.svg)](https://github.com/prompt-engineering/chat-flow/actions/workflows/ci.yaml)
+![GitHub](https://img.shields.io/github/license/prompt-engineering/chat-flow)
 [![Discord](https://img.shields.io/discord/1082563233593966612)](https://discord.gg/FSWXq4DmEj)
 
 <img src="src/assets/clickprompt-home.svg" width='128' height='128' alt='ClickPrompt Logo' />
@@ -64,10 +64,10 @@ Phase 3: Improvement
 ### Run ClickPrompt
 
 ```shell
-# Clone click-prompt
-git clone https://github.com/prompt-engineering/click-prompt
+# Clone chat-flow
+git clone https://github.com/prompt-engineering/chat-flow
 
-cd click-prompt
+cd chat-flow
 
 npm install
 
@@ -100,4 +100,4 @@ This code is distributed under the MIT license. See [LICENSE](./LICENSE) in this
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=prompt-engineering/click-prompt&type=Date)](https://star-history.com/#prompt-engineering/click-prompt&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=prompt-engineering/chat-flow&type=Date)](https://star-history.com/#prompt-engineering/chat-flow&Date)

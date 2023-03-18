@@ -38,7 +38,7 @@ steps:
       - name: Fetch issue
         type: "api"
         api:
-          url: https://api.github.com/repos/prompt-engineering/click-prompt/issues
+          url: https://api.github.com/repos/prompt-engineering/chat-flow/issues
           method: GET
           headers:
             - key: Accept
@@ -88,7 +88,7 @@ steps:
       - name: Create issue
         type: "api"
         api:
-          url: https://api.github.com/repos/prompt-engineering/click-prompt/issues
+          url: https://api.github.com/repos/prompt-engineering/chat-flow/issues
           method: POST
           headers:
             - key: Accept
@@ -167,7 +167,7 @@ steps:
     values:
       placeholder: |
         ```bash
-        DatabaseError: target: click-prompt.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: "insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)", BindVars: {REDACTED}
+        DatabaseError: target: chat-flow.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: "insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)", BindVars: {REDACTED}
             at Connection.execute (/var/task/.next/server/chunks/9212.js:182:19)
             at processTicksAndRejections (node:internal/process/task_queues:96:5)
             at async _PlanetScaleConnection.executeQuery (/var/task/.next/server/chunks/9212.js:408:21)
@@ -180,7 +180,7 @@ steps:
             at async NextNodeServer.runApi (/var/task/node_modules/next/dist/server/next-server.js:513:9) {
           status: 400,
           body: {
-            message: `target: click-prompt.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: "insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)", BindVars: {REDACTED}`,
+            message: `target: chat-flow.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: "insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)", BindVars: {REDACTED}`,
             code: 'UNKNOWN'
           }
         }

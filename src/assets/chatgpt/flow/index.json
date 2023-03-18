@@ -16,7 +16,7 @@
             "name": "Fetch issue",
             "type": "api",
             "api": {
-              "url": "https://api.github.com/repos/prompt-engineering/click-prompt/issues",
+              "url": "https://api.github.com/repos/prompt-engineering/chat-flow/issues",
               "method": "GET",
               "headers": [
                 {
@@ -63,7 +63,7 @@
             "name": "Create issue",
             "type": "api",
             "api": {
-              "url": "https://api.github.com/repos/prompt-engineering/click-prompt/issues",
+              "url": "https://api.github.com/repos/prompt-engineering/chat-flow/issues",
               "method": "POST",
               "headers": [
                 {
@@ -108,7 +108,7 @@
         "ask": "帮我分析一下这个问题的原因是什么？\n\n$$placeholder$$\n",
         "markdownEditor": true,
         "values": {
-          "placeholder": "```bash\nDatabaseError: target: click-prompt.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: \"insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)\", BindVars: {REDACTED}\n    at Connection.execute (/var/task/.next/server/chunks/9212.js:182:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async _PlanetScaleConnection.executeQuery (/var/task/.next/server/chunks/9212.js:408:21)\n    at async /var/task/node_modules/kysely/dist/cjs/query-executor/query-executor-base.js:37:28\n    at async DefaultConnectionProvider.provideConnection (/var/task/node_modules/kysely/dist/cjs/driver/default-connection-provider.js:12:20)\n    at async DefaultQueryExecutor.executeQuery (/var/task/node_modules/kysely/dist/cjs/query-executor/query-executor-base.js:36:16)\n    at async InsertQueryBuilder.execute (/var/task/node_modules/kysely/dist/cjs/query-builder/insert-query-builder.js:486:24)\n    at async handler (/var/task/.next/server/chunks/1407.js:70:21)\n    at async Object.apiResolver (/var/task/node_modules/next/dist/server/api-utils/node.js:372:9)\n    at async NextNodeServer.runApi (/var/task/node_modules/next/dist/server/next-server.js:513:9) {\n  status: 400,\n  body: {\n    message: `target: click-prompt.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: \"insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)\", BindVars: {REDACTED}`,\n    code: 'UNKNOWN'\n  }\n}\nRequestId: d344e3fe-f438-4126-8017-f83e7104d07a Error: Runtime exited with error: exit status 1\nRuntime.ExitError\n```\n"
+          "placeholder": "```bash\nDatabaseError: target: chat-flow.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: \"insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)\", BindVars: {REDACTED}\n    at Connection.execute (/var/task/.next/server/chunks/9212.js:182:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async _PlanetScaleConnection.executeQuery (/var/task/.next/server/chunks/9212.js:408:21)\n    at async /var/task/node_modules/kysely/dist/cjs/query-executor/query-executor-base.js:37:28\n    at async DefaultConnectionProvider.provideConnection (/var/task/node_modules/kysely/dist/cjs/driver/default-connection-provider.js:12:20)\n    at async DefaultQueryExecutor.executeQuery (/var/task/node_modules/kysely/dist/cjs/query-executor/query-executor-base.js:36:16)\n    at async InsertQueryBuilder.execute (/var/task/node_modules/kysely/dist/cjs/query-builder/insert-query-builder.js:486:24)\n    at async handler (/var/task/.next/server/chunks/1407.js:70:21)\n    at async Object.apiResolver (/var/task/node_modules/next/dist/server/api-utils/node.js:372:9)\n    at async NextNodeServer.runApi (/var/task/node_modules/next/dist/server/next-server.js:513:9) {\n  status: 400,\n  body: {\n    message: `target: chat-flow.-.primary: vttablet: rpc error: code = InvalidArgument desc = Data too long for column 'key_encrypted' at row 1 (errno 1406) (sqlstate 22001) (CallerID: 2lu2zsztxccwigrmdi7w): Sql: \"insert into users(iv, key_hashed, key_encrypted) values (:vtg1, :vtg2, :vtg3)\", BindVars: {REDACTED}`,\n    code: 'UNKNOWN'\n  }\n}\nRequestId: d344e3fe-f438-4126-8017-f83e7104d07a Error: Runtime exited with error: exit status 1\nRuntime.ExitError\n```\n"
         }
       }
     ],
