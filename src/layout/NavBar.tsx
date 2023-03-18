@@ -24,22 +24,9 @@ export default async function NavBar({ locale }: { locale: string }) {
 
   const NavList = [
     {
-      title: "ChatGPT",
-      children: [
-        { url: `/chatgpt-general/`, title: g("chatgpt-general") },
-        { url: `/chatgpt-prompt-role-play/`, title: g("chatgpt-prompt-role-play") },
-        { url: `/chatgpt-generator-cot/`, title: g("chatgpt-generator-cot") },
-        { url: `/chatgpt-interactive-game/`, title: g("chatgpt-interactive-game") },
-        { url: `/chatgpt-samples/`, title: g("chatgpt-samples") },
-        { url: `/chatgpt/`, title: g("chatgpt") },
-        { url: `/chatgpt-visual-novel/`, title: g("chatgpt-visual-novel") },
-      ],
-    },
-    {
       title: g("click-flow"),
       url: `/click-flow/`,
     },
-    { url: `/resources/`, title: g("resources") },
   ];
 
   return (
@@ -47,13 +34,13 @@ export default async function NavBar({ locale }: { locale: string }) {
       <Flex>
         <Heading size='md' mr={4}>
           <Link href={"/"}>
-            <ClickPromptIcon /> ClickPrompt
+            ChatFlow
           </Link>
         </Heading>
         <Flex align='center' display={{ md: "flex", base: "none" }}>
-          {NavList.map((nav) => {
+          {NavList.map((nav: any) => {
             // 如果当前导航项有子菜单，则呈现为下拉菜单
-            if (nav.children) {
+            if (nav?.children) {
               return (
                 <Menu key={nav.title}>
                   <MenuButton mr={4}>
@@ -61,7 +48,7 @@ export default async function NavBar({ locale }: { locale: string }) {
                     <ChevronDownIcon />
                   </MenuButton>
                   <MenuList>
-                    {nav.children.map((child) => (
+                    {nav.children.map((child: any) => (
                       <MenuItem key={child.url} as={Link} href={child.url}>
                         <Box mr={4} color={pathname === child.url ? "#108EE9" : "black"}>
                           {child.title}
@@ -99,9 +86,9 @@ export default async function NavBar({ locale }: { locale: string }) {
           mr={4}
         />
         <MenuList display={{ md: "none", base: "block" }}>
-          {NavList.map((nav) =>
+          {NavList.map((nav: any) =>
             nav.children ? (
-              nav.children.map((child) => (
+              nav.children.map((child: any) => (
                 <MenuItem key={child.url} as={Link} href={child.url}>
                   <Box mr={4} color={pathname === child.url ? "#108EE9" : "black"}>
                     {child.title}
