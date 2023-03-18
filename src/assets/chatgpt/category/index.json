@@ -1,0 +1,127 @@
+[
+  {
+    "name": {
+      "zh-CN": "写作",
+      "en-US": "Writing"
+    },
+    "category": "Writing",
+    "samples": [
+      {
+        "name": "修饰文字",
+        "ask": "翻译并优化一下这个句子 \" ClickPrompt - Streamline your prompt design, with ClickPrompt, you can easily view, share, and run these prompts with just one click. \"\n",
+        "response": "Refine the introduction of ClickPrompt:\n\nClickPrompt can streamline your prompt design. With ClickPrompt, you can effortlessly view, share, and execute your prompts with just one click.\n"
+      },
+      {
+        "name": "创作",
+        "ask": "为一家咖啡公司写一句标语",
+        "response": "每一杯，都是你与世界的浪漫邂逅"
+      },
+      {
+        "name": "联想",
+        "ask": "我想写一篇介绍 Python  + 人工智能的文章，帮我想 10 个标题",
+        "response": "当然可以，以下是十个可能的标题：\n\n- 初探人工智能：Python 编程的入门指南\n- Python 与人工智能：现代编程中的黄金搭档\n- 探索 Python 在机器学习中的应用\n- 从零开始学习 Python 和人工智能\n- Python: 人工智能的必备编程语言\n- Python 编程语言在深度学习中的应用\n- 学习人工智能：使用 Python 的初学者指南\n- 让人工智能更易入门：Python 编程语言的优势\n- 使用 Python 打造自己的人工智能项目\n- Python 人工智能编程：从入门到精通\n"
+      },
+      {
+        "name": "大纲创作",
+        "ask": "围绕 \"Python 人工智能编程：从入门到精通\" 的主题写个大纲",
+        "response": "当然可以，以下是围绕 \"Python 人工智能编程：从入门到精通\" 主题的一个大纲：\n\nI. 介绍\n\n简要介绍 Python 编程语言和人工智能的关系\n为什么 Python 成为了人工智能开发的首选语言\n\nII. 入门\n\nPython 的基础语法\nPython 的数据类型、运算符、流程控制\nPython 的函数和模块\n\nIII. 数据分析\n\nPython 在数据科学中的应用\nNumPy 和 Pandas 的使用\n数据可视化\n\nIV. 机器学习\n\n机器学习的基本概念\nScikit-learn 库的使用\n数据预处理和特征工程\n常用的机器学习算法和模型\n"
+      },
+      {
+        "name": "内容写作",
+        "ask": "围绕下面的大纲写一篇文章\n\"\"\"\n机器学习的基本概念\nScikit-learn 库的使用\n数据预处理和特征工程\n常用的机器学习算法和模型\n\"\"\"\n",
+        "response": "机器学习是人工智能领域的重要分支，它使用算法和数学模型来让计算机能够从数据中学习并做出预测。在这篇文章中，我们将探讨机器学习的基本概念，介绍 Scikit-learn 库的使用以及数据预处理和特征工程的重要性，最后讨论几个常用的机器学习算法和模型。\n\n## 机器学习的基本概念\n\n机器学习是一种从数据中学习的技术。它通过使用许多统计学和数学模型，将数据转换成可预测的模式，并通过分析这些模式来进行决策。在机器学习中，有三种不同的学习方式：监督学习、无监督学习和强化学习。\n\n监督学习是一种学习方式，其中给定一组标记的训练数据，并通过这些数据来构建一个预测模型。监督学习的目标是根据输入数据的特征预测输出变量的值。例如，我们可以使用监督学习来预测房屋价格，其中训练数据包含了房屋的各种特征和对应的价格。\n"
+      },
+      {
+        "name": "总结",
+        "ask": "帮我总结一下这篇文章\n\"\"\"\n....\n\"\"\"\n",
+        "response": "这篇文章介绍了机器学习作为人工智能领域的一个重要分支，利用算法和数学模型从数据中学习并进行预测的技术。文章分为以下几个部分：\n\n机器学习的基本概念：介绍了机器学习是一种从数据中学习的技术，并通过使用统计学和数学模型来将数据转换为可预测的模式，并通过分析这些模式来进行决策。同时还介绍了监督学习、无监督学习和强化学习三种不同的学习方式。\n\nScikit-learn 库的使用：介绍了 Scikit-learn 库，这是一个基于 Python 的机器学习库，可以用于各种机器学习任务，例如分类、回归和聚类等。\n\n数据预处理和特征工程的重要性：强调了数据预处理和特征工程在机器学习中的重要性，这是数据分析和机器学习模型的前提条件，能够显著影响模型的性能。\n\n常用的机器学习算法和模型：讨论了几种常用的机器学习算法和模型，例如决策树、随机森林、支持向量机和神经网络等，包括它们的应用领域和优缺点。\n\n 总之，本文是一个入门级别的机器学习介绍，介绍了机器学习的基本概念、常用库、数据预处理和特征工程的重要性以及几种常用的机器学习算法和模型，可以为初学者提供一个基本的了解和指导。\n"
+      }
+    ]
+  },
+  {
+    "name": {
+      "zh-CN": "编程",
+      "en-US": "Programming"
+    },
+    "category": "Programming",
+    "samples": [
+      {
+        "name": "流程图",
+        "ask": "使用 mermaid 绘制一个用户登陆的流程图",
+        "response": "以下是一个使用 mermaid 绘制用户登录流程图的示例：\n\n```mermaid\ngraph LR;\n  A[用户]-->B[输入用户名和密码];\n  B-->C[发送登录请求];\n  C-->D[验证用户名和密码];\n  D-->|成功|E[登录成功];\n  D-->|失败|F[登录失败];\n  E-->G[跳转到用户页面];\n  F-->H[提示错误信息];\n```\n\n上述代码使用 graph LR 指令指定了绘图的类型和方向。然后，我们定义了四个节点，分别是用户（A）、输入用户名和密码（B）、发送登录请求（C）和验证用户名和密码（D）。最后，我们使用条件语句 |成功| 和 |失败| 来表示登录的成功或失败，并分别连接到登录成功（E）或登录失败（F）的节点。如果登录成功，我们将跳转到用户页面（G），否则我们将提示错误信息（H）。\n\n您可以将上述代码复制到您的 mermaid 图表中，并使用 mermaid.initialize() 和 mermaid.render() 方法呈现该图表。\n"
+      },
+      {
+        "name": "程序转换",
+        "ask": "将转换下面的程序转换为 JavaScript 代码：\n```python\ndef foo():\n    print(\"Hello World\")\n```\n",
+        "response": "将这个 Python 函数转换为 JavaScript 函数，可以使用以下代码：\n```javascript\nfunction foo() {\n  console.log(\"Hello World\");\n}\n```\n在 JavaScript 中，我们使用 function 关键字来声明函数，然后在大括号中定义函数体。与 Python 不同的是，在 JavaScript 中，我们使用 console.log() 方法来打印输出而不是 print() 函数。因此，我们可以通过将 print() 语句替换为 console.log() 语句来将这个函数从 Python 转换为 JavaScript。\n"
+      },
+      {
+        "name": "编写测试用例",
+        "ask": "使用 Java + MockMvc 为下面的场景编写测试用例\n- 测试 `/user/1` 的 GET 请求\n- 测试 `/user/1` 的 DELETE 请求\n- 测试 `/user/1` 的 PUT 请求\n",
+        "response": "下面是使用 Java + MockMvc 编写测试用例的示例代码：\n```java\n...\n@SpringBootTest\n@AutoConfigureMockMvc\npublic class UserControllerTest {\n\n  @Autowired\n  private MockMvc mockMvc;\n\n  @Test\n  public void testGetUser() throws Exception {\n  mockMvc.perform(MockMvcRequestBuilders.get(\"/user/1\"))\n  .andExpect(MockMvcResultMatchers.status().isOk());\n}\n\n  @Test\n  public void testDeleteUser() throws Exception {\n  mockMvc.perform(MockMvcRequestBuilders.delete(\"/user/1\"))\n  .andExpect(MockMvcResultMatchers.status().isOk());\n}\n\n  @Test\n  public void testUpdateUser() throws Exception {\nString requestBody = \"{\\\"name\\\": \\\"John\\\", \\\"age\\\": 30}\";\n  mockMvc.perform(MockMvcRequestBuilders.put(\"/user/1\")\n  .contentType(MediaType.APPLICATION_JSON)\n  .content(requestBody))\n  .andExpect(MockMvcResultMatchers.status().isOk());\n}\n\n}\n```\n在上面的代码中，我们首先使用 @AutoConfigureMockMvc 注解配置了 MockMvc 对象，然后分别编写了针对 /user/1 的 GET、DELETE 和 PUT 请求的测试用例。其中，perform() 方法用于执行请求，andExpect() 方法用于断言结果。在 PUT 请求的测试用例中，我们需要设置请求的 Content-Type 为 JSON，并提供请求体。\n"
+      },
+      {
+        "name": "SQL 查询",
+        "ask": "我想查询在 user 表查询所有 user id 为 1 的所有用户\n",
+        "response": "在 SQL 中，您可以使用以下语句查询 user 表中所有 user id 为 1 的记录：\n```sql\nSELECT * FROM user WHERE id = 1;\n```\n这个查询语句将会从名为 user 的表中选择所有符合条件 id = 1 的记录，并将它们全部返回。如果您只想查询其中的一些特定列，例如 name 和 age，则可以指定这些列的名称，如下所示：\n```sql\nSELECT name, age FROM user WHERE id = 1;\n```\n这个查询语句将只返回 user 表中符合条件 id = 1 的记录中的 name 和 age 两列的值。\n\n请注意，上述语句中的 user 和 id 是根据您的实际数据库结构而定的表名和列名，请根据您自己的表结构进行相应的更改。\n"
+      },
+      {
+        "name": "编写注释",
+        "ask": "为下面的代码编写注释：\n```typescript\nexport const middleware: NextMiddleware = (request) => {\n  const pathname = request.nextUrl.pathname;\n  const pathnameIsMissingLocale = locales.every(\n    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,\n  );\n\n  if (pathnameIsMissingLocale) {\n    const locale = getLocale(request);\n\n    return NextResponse.redirect(new URL(`/${locale}/${pathname}`, request.url));\n  }\n};\n```\n",
+        "response": "下面是对这段 TypeScript 代码的注释：\n\n```typescript\n// 定义一个 Next.js 中间件函数，用于检查路由路径是否包含语言环境前缀，并在需要时将请求重定向到带有语言前缀的路径\nexport const middleware: NextMiddleware = (request) => {\n  // 获取请求的路径名，即路由路径\n  const pathname = request.nextUrl.pathname;\n\n  // 检查路由路径是否包含语言环境前缀。locales 变量是一个字符串数组，包含应用支持的所有语言环境前缀。\n  const pathnameIsMissingLocale = locales.every(\n  (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,\n  );\n\n  // 如果路由路径缺少语言环境前缀，则将请求重定向到带有语言前缀的路径\n  if (pathnameIsMissingLocale) {\n  // 获取请求的语言环境\n  const locale = getLocale(request);\n\n  // 构建带有语言前缀的 URL，然后将请求重定向到该 URL\n  return NextResponse.redirect(new URL(`/${locale}/${pathname}`, request.url));\n  }\n};\n```\n\n这段代码定义了一个 Next.js 中间件函数 middleware，用于检查路由路径是否包含语言环境前缀。如果路由路径不包含任何语言环境前缀，则将请求重定向到带有语言前缀的路径。其中：\n\nNextMiddleware 是 Next.js 中间件函数类型的别名，它接受一个参数 request，该参数代表当前的请求对象。\npathname 变量存储了请求的路径名，即路由路径。\nlocales 是一个字符串数组，包含应用支持的所有语言环境前缀。\npathnameIsMissingLocale 变量表示路由路径是否缺少语言环境前缀。它使用 every() 方法迭代 locales 数组，检查路由路径是否以其中任何一个语言环境前缀开头，或者是否等于其中任何一个语言环境前缀。如果没有一个语言环境前缀被匹配到，则返回 true。\n如果 pathnameIsMissingLocale 为 true，则说明路由路径缺少语言环境前缀。此时，使用 getLocale() 函数获取请求的语言环境，然后构建带有语言前缀的 URL，并将请求重定向到该 URL。如果 pathnameIsMissingLocale 为 false，则不做任何操作，直接继续执行后续的中间件或页面渲染逻辑。\n"
+      }
+    ]
+  },
+  {
+    "name": {
+      "zh-CN": "商业",
+      "en-US": "Business"
+    },
+    "category": "Business",
+    "samples": [
+      {
+        "name": "修饰文字",
+        "ask": "翻译并优化一下这个句子 \" ClickPrompt - Streamline your prompt design, with ClickPrompt, you can easily view, share, and run these prompts with just one click. \"\n",
+        "response": "Refine the introduction of ClickPrompt:\n\nClickPrompt can streamline your prompt design. With ClickPrompt, you can effortlessly view, share, and execute your prompts with just one click.\n"
+      },
+      {
+        "name": "头脑风暴",
+        "ask": "帮我想一个关于人工智能的创业项目",
+        "response": "一个关于人工智能的创业项目是基于人工智能技术的自动化客服机器人。该机器人能够使用自然语言处理技术和机器学习算法来理解客户的问题，并提供准确和及时的解决方案。\n它可以通过多种渠道（如社交媒体、电子邮件、短信等）与客户进行交互，并在需要时将问题转交给人工客服代表。该机器人还可以收集并分析客户的反馈和数据，\n以改进服务和提高客户满意度。这个创业项目将提供高效、便捷、个性化的客户服务，提高企业的效率和品牌形象。\n"
+      },
+      {
+        "name": "OKR",
+        "ask": "我是一个技术主管，今年要求我提升公司的架构质量，特别是在后端微服务质量与前端分层架构上。请协助我制定 OKR 目标。\n",
+        "response": "作为技术主管，你的任务是提高公司的架构质量，特别是在后端微服务质量与前端分层架构方面。以下是可能的OKR目标：\n\n**目标1： 提高后端微服务质量**\n\n- 关键结果1： 对现有微服务进行评估并提出改进建议，以提高其可扩展性、可靠性和性能。\n- 关键结果2： 通过监控、日志记录和自动化测试等手段，确保微服务的稳定性和高效性。\n- 关键结果3： 为开发人员提供培训和资源，以确保他们能够设计和实施高质量的微服务。\n\n**目标2： 提高前端分层架构**\n\n- 关键结果1： 对现有前端架构进行评估，并提出改进建议，以提高其可维护性、可扩展性和灵活性。\n- 关键结果2： 开发并实施清晰的前端架构指南和最佳实践。\n- 关键结果3： 培训开发人员，确保他们能够设计和实现高质量的前端应用程序。\n\n**目标3： 提高开发流程**\n\n- 关键结果1： 评估现有的开发流程并提出改进建议，以提高开发效率和质量。\n- 关键结果2： 实施自动化构建、部署和测试，以减少手动工作和错误率。\n- 关键结果3： 培训开发人员和其他相关人员，确保他们能够顺利地使用新的开发流程。\n\n这些是可能的针对公司架构质量提升的OKR目标。当制定OKR目标时，请确保目标具有可衡量性和实现性，并与团队成员共同制定这些目标，以确保他们的承诺和参与。\n"
+      }
+    ]
+  },
+  {
+    "name": {
+      "zh-CN": "分析方法",
+      "en-US": "Analysis"
+    },
+    "category": "Analysis",
+    "samples": [
+      {
+        "name": "SWOT 分析",
+        "ask": "请对 ChatGPT 进行 SWOT 分析，需要从优势、劣势、机会和威胁等四方面展开。",
+        "response": "ChatGPT 是一种由 OpenAI 开发的强大的自然语言处理模型，具有许多有利的方面，但也面临着一些挑战。下面是 ChatGPT 的 SWOT 分析：\n\n优势：\n\n1. 强大的语言处理能力：ChatGPT拥有强大的自然语言处理能力，可以理解和生成自然语言的多个方面，包括语法、句法、语义和上下文等。\n2. 可扩展性：ChatGPT可以通过不断的训练来不断提高其语言处理能力，并可以适应各种新的应用场景和语言环境。\n3. 灵活性：ChatGPT可以在多个平台上使用，包括移动设备、计算机和云服务等。\n4. 广泛的应用：ChatGPT可以应用于多种领域，包括聊天机器人、智能客服、智能助手、自动翻译和信息检索等。\n\n劣势：\n\n1. 数据需求：ChatGPT需要大量的数据进行训练，因此需要花费大量的时间和成本来收集、处理和清洗数据。\n2. 运行成本高：ChatGPT需要强大的计算能力和大量的存储空间来运行，这会导致高昂的运行成本。\n...\n"
+      }
+    ]
+  },
+  {
+    "name": {
+      "zh-CN": "社交",
+      "en-US": "Social"
+    },
+    "category": "Social",
+    "samples": [
+      {
+        "name": "Gift",
+        "ask": "推荐一个合适的礼物给我 18 岁的女性朋友？",
+        "response": "为一个18岁的女性朋友挑选礼物时，可以考虑以下几个方面：\n- 兴趣爱好：了解她的兴趣爱好，可以让你更容易挑选到她喜欢的礼物。例如，如果她喜欢阅读，可以送她一本她喜欢的书；如果她喜欢音乐，可以送她一张她喜欢的专辑或音乐会门票。\n- 年龄：18岁的女性正处于青春期，对于时尚、美容、健康等方面比较敏感。可以考虑购买一些适合她年龄段的化妆品、护肤品、服装、配饰等。\n- 个性：每个人都有自己的个性和喜好，为了挑选到一份特别的礼物，可以考虑她的个性特点，例如她是否喜欢手工艺、设计艺术等，或者她是否喜欢收藏某种物品。\n基于以上几点建议，以下是几个适合18岁女性的礼物推荐：\n1. 一款美丽的化妆品套装：18岁的女性通常对自己的外表比较关注，送她一款美丽的化妆品套装可以让她更好地展现自己的美丽。\n2. 一本她喜欢的书：如果她喜欢阅读，送她一本她感兴趣的书，可以让她在业余时间享受阅读的乐趣。\n3. 一件漂亮的衣服或配饰：\n...\n"
+      }
+    ]
+  }
+]
