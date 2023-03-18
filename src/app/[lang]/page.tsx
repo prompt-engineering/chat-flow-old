@@ -1,19 +1,18 @@
 import React from "react";
-import { Box, Container } from "@/components/ChakraUI";
 import { getAppData } from "@/i18n";
+import StartlingByEachStepList from "@/app/[lang]/click-flow/page.client";
 
 async function Page() {
-  const { i18n } = await getAppData();
-  const t = i18n.tFactory("/");
+  const { locale, pathname, i18n } = await getAppData();
+  const i18nProps: GeneralI18nProps = {
+    locale,
+    pathname,
+    i18n: {
+      dict: i18n.dict,
+    },
+  };
 
-  return (
-    <Box mb={ 20 }>
-      <Box as='section' pt='6rem' pb={ { base: "0", md: "5rem" } }>
-        <Container>
-        </Container>
-      </Box>
-    </Box>
-  );
+  return <StartlingByEachStepList {...i18nProps} />;
 }
 
 export default Page;

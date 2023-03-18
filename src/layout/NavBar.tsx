@@ -33,9 +33,7 @@ export default async function NavBar({ locale }: { locale: string }) {
     <Flex align='center' py='4' pl='20px' pr={{ md: "20px", base: "4px" }} boxShadow='base'>
       <Flex>
         <Heading size='md' mr={4}>
-          <Link href={"/"}>
-            ChatFlow
-          </Link>
+          <Link href={"/"}>ChatFlow</Link>
         </Heading>
         <Flex align='center' display={{ md: "flex", base: "none" }}>
           {NavList.map((nav: any) => {

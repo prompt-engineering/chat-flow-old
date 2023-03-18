@@ -11,7 +11,7 @@ const pages = {
   "/": _index,
   "/chatgpt/": _chatgpt,
   "/click-flow/": _chatgptStartlingByEachStep,
-  "/click-flow/$": _chatgptStartlingByEachStepDetail
+  "/click-flow/$": _chatgptStartlingByEachStepDetail,
 } satisfies Record<PagePath, any>;
 export type PageKey<P extends PagePath> = keyof (typeof pages)[P];
 
